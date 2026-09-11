@@ -1,0 +1,30 @@
+---
+title: "Lab 5: Peaks over threshold in practice"
+week: 5
+module: 2
+date: 2026-09-25
+due:
+  - label: "Lab 5 due"
+    date: 2026-10-02
+status: "placeholder"
+release: "public"
+---
+
+GPD fit on declustered Galveston peaks; threshold diagnostics; parameter samples to return levels.
+
+## Setup
+
+```{julia}
+#| solution: false
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+!isfile(joinpath(lab_dir, "Manifest.toml")) && Pkg.instantiate()
+
+using Turing
+```
+
+## Exercises
+
+[TODO]
